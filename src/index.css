@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@utility container {
+  margin: auto;
+  padding-inline: 2rem;
+}
+
+@theme {
+  --color-primary: #132238;
+  --color-secondary: #556070;
+  --color-pink: #a53dff;
+  --color-nav: #333333;
+  --font-sans: "Work Sans", sans-serif;
+  --color-gray:#424E60;
+  --color-li-gray:#87909D;
+  --color-light-pink:#EDD8FF;
+  --color-form:#697484;
+}
+
+@utility saya {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+
+body {
+  background-image: url(/public/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
