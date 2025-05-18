@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2B384C] z-0">
+    <section className="bg-[#2B384C]">
       <div className="container flex items-center justify-between pt-40 pb-12">
         <div>
           <img src="footer.png" alt="logo" />
@@ -72,7 +72,7 @@ const Footer = () => {
           <small className='text-white'>Copyright © 2022 Picto.</small>
         </div>
       </div>
-    </footer>
+    </section>
   );
 }
 
