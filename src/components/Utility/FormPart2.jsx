@@ -1,8 +1,22 @@
 
+import { useState } from 'react'
 import SubmitBtn from './SubmitBtn'
 
 const FormPart2 = () => {
+  let [fullName, setFullName] = useState("")
+  let [fullNameErr, setFullNameErr] = useState("")
 
+
+
+  const handelSubmit = (e) => {
+    e.preventdefault()
+    if (!fullName) {
+      setFullNameErr("Name is required!")
+    } else {
+        alert("submitted");
+      }
+    }
+  }
 
   return (
     <div>
@@ -11,8 +25,8 @@ const FormPart2 = () => {
             the majority have suffered alte.
           </p>
           <div>
-            <form className="grid gap-6">
-              <input
+            <form onSubmit={handelSubmit} className="grid gap-6">
+              <input onChange={(e)=>setFullName}
                 type="text"
                 placeholder="Name*"
                 className="border-b-2 hover:border-pink hover:placeholder-pink transition-all border-form placeholder-form"
