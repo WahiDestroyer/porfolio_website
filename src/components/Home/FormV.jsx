@@ -4,6 +4,8 @@ import FormPart1 from '../Utility/FormPart1'
 import BtnPrimary from '../Utility/BtnPrimary'
 import FormPart2 from '../Utility/FormPart2'
 import { IoLocationOutline } from 'react-icons/io5'
+import { MdOutlineAlternateEmail } from 'react-icons/md'
+import { FaPhone } from 'react-icons/fa6'
 
 const FormV = () => {
   return (
@@ -23,8 +25,16 @@ const FormV = () => {
               title="Address:"
               letter="New Mexico 31134"
             />
-            <FormPart1 icon="" title="My Email:" letter="mymail@mail.com" />
-            <FormPart1 icon="" title="Call Me Now:" letter="00-1234 00000" />
+            <FormPart1
+              icon={<MdOutlineAlternateEmail />}
+              title="My Email:"
+              letter="mymail@mail.com"
+            />
+            <FormPart1
+              icon={<FaPhone />}
+              title="Call Me Now:"
+              letter="00-1234 00000"
+            />
           </div>
           <SocialSites />
         </div>

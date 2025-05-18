@@ -1,8 +1,9 @@
-import React from 'react'
-import BtnPrimary from './BtnPrimary'
+
 import SubmitBtn from './SubmitBtn'
 
 const FormPart2 = () => {
+
+
   return (
     <div>
       <p className="font-sans font-medium text-base leading-6 text-li-gray pb-12">
