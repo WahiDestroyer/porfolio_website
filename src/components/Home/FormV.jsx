@@ -9,8 +9,8 @@ import { FaPhone } from 'react-icons/fa6'
 
 const FormV = () => {
   return (
-    <section className='translate-y-28 z-10'>
-      <div className="container flex justify-between rounded-2xl saya p-22">
+    <section>
+      <div className="container bg-white flex justify-between rounded-2xl saya p-22 translate-y-28">
         <div>
           <h3 className="font-sans font-semibold text-4xl text-primary leading-12 pb-4">
             Let’s discuss your Project
@@ -36,7 +36,9 @@ const FormV = () => {
               letter="00-1234 00000"
             />
           </div>
-          <SocialSites />
+          <SocialSites
+          style="saya"
+          />
         </div>
         <div className="max-w-[560px]">
           <FormPart2 />

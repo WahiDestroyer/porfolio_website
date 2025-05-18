@@ -8,9 +8,9 @@ import {
 } from "react-icons/fa6";
 import { Link } from "react-router";
 
-const SocialSites = () => {
+const SocialSites = ({style}) => {
   return (
-    <div className="flex justify-around p-2 items-center w-64 bg-white rounded-md" >
+    <div className={`flex justify-around p-2 items-center w-64 bg-white rounded-md ${style}`} >
       <Link
         to="/"
         className="p-3 rounded-md hover:bg-pink group transition-all duration-800"

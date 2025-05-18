@@ -2,10 +2,10 @@ import React from 'react'
 
 const Process = ({icon, title, description}) => {
   return (
-    <div className="p-8 rounded-md max-w-80 max-h-fit bg-white hover:scale-105 overflow-hidden transition-all duration-800">
-      <h2 className="max-w-13 max-h-fit bg-[#EDD8FF] text-pink p-5 hover:bg-pink hover:text-white rounded-lg transition-all duration-700 text-base">
+    <div className="group p-8 rounded-md max-w-80 max-h-fit bg-white hover:scale-105 overflow-hidden transition-all duration-800">
+      <div className="w-fit bg-[#EDD8FF] text-pink p-5 group-hover:bg-pink group-hover:text-white rounded-lg transition-all duration-700 text-lg text-center">
         {icon}
-      </h2>
+      </div>
       <h3 className="font-sans font-semibold text-primary text-base leading-6 pt-8 pb-3">
         {title}
       </h3>

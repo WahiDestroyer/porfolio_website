@@ -25,7 +25,6 @@ const Home = () => {
       <Clients />
       <Testimonial />
       <FormV />
-      <Footer/>
     </>
   )
 }
