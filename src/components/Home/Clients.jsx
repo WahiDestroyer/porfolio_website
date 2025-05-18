@@ -14,12 +14,36 @@ const Clients = () => {
           </p>
         </div>
         <div className="flex justify-between pt-6">
-          <img src="c1.png" alt="media" />
-          <img src="c2.png" alt="media" />
-          <img src="c3.png" alt="media" />
-          <img src="c4.png" alt="media" />
-          <img src="c5.png" alt="media" />
-          <img src="c6.png" alt="media" />
+          <img
+            src="google.png"
+            alt="media"
+            className="w-50 h-50 grayscale-100 hover:grayscale-0 transition-all duration-300"
+          />
+          <img
+            src="dribbble.png"
+            alt="media"
+            className="w-50 h-50 grayscale-100 hover:grayscale-0 transition-all duration-300"
+          />
+          <img
+            src="c3.png"
+            alt="media"
+            className="w-50 h-50 grayscale-100 hover:grayscale-0 transition-all duration-300"
+          />
+          <img
+            src="c4.png"
+            alt="media"
+            className="w-50 h-50 grayscale-100 hover:grayscale-0 transition-all duration-300"
+          />
+          <img
+            src="c5.png"
+            alt="media"
+            className="w-50 h-50 grayscale-100 hover:grayscale-0 transition-all duration-300"
+          />
+          <img
+            src="c6.png"
+            alt="media"
+            className="w-50 h-50 grayscale-100 hover:grayscale-0 transition-all duration-300"
+          />
         </div>
       </div>
     </section>

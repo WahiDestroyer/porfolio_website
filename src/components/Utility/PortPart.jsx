@@ -1,4 +1,3 @@
-import React from 'react'
 import BtnThird from './BtnThird'
 
 const PortPart = ({image, title}) => {
@@ -16,7 +15,7 @@ const PortPart = ({image, title}) => {
           Vivamus eleifend convallis ante, non pharetra libero<br/> molestie laoreet.
           Donec id imperdiet lacus.
         </p>
-        <BtnThird path="/" btnName="Case Study" />
+        <BtnThird path="/" btnName="Case Study"/>
       </div>
     </div>
   );

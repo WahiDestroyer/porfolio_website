@@ -10,9 +10,10 @@ import Experience from '../components/Home/Experience'
 import Clients from '../components/Home/Clients'
 import Testimonial from '../components/Home/Testimonial'
 import FormV from '../components/Home/FormV'
-import Footer from '../components/layout/Footer'
+
 
 const Home = () => {
+  
   return (
     <>
       <Banner />
