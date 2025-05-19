@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Banner = () => {
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 3000, once: true });
   }, []);
   return (
     <>
@@ -57,7 +57,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-once="true">
+          <div data-aos="fade-left">
             <img src="banner.png" alt="banner" />
           </div>
         </div>
