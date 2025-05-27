@@ -4,7 +4,7 @@ import BtnPrimary from "../Utility/BtnPrimary";
 
 const Navbar = () => {
   return (
-    <nav className="py-5 bg-white">
+    <nav data-aos="fade-down" className="py-5 bg-white">
       <div className="container flex items-center justify-between">
         <div>
           <Link to="/">

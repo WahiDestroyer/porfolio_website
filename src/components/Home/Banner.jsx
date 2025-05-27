@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react'
+
+
 import BtnPrimary from '../Utility/BtnPrimary'
-import Aos from "aos";
-import "aos/dist/aos.css";
+
+
 
 
 const Banner = () => {
-  useEffect(() => {
-    Aos.init({ duration: 3000, once: true });
-  }, []);
+  
+  
   return (
     <>
       <section className="mb-56">

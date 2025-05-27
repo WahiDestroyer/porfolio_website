@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BtnPrimary from "../Utility/BtnPrimary";
 import Btnsecondary from "../Utility/Btnsecondary";
 import SocialSites from "../Utility/SocialSites"
 
+
+
 const User = () => {
+
+  
+  
   return (
     <section className="translate-y-28 z-10">
       <div className="container flex items-center justify-between bg-white rounded-2xl">
@@ -14,11 +19,15 @@ const User = () => {
           </div>
         </div>
         <div className="max-w-lg">
-          <h2 className="text-primary font-sans font-semibold text-4xl leading-12 pb-8">
+          <h2
+            data-aos="fade-down"
+            className="text-primary font-sans font-semibold text-4xl leading-12 pb-8"
+          >
             I am Professional User
             <br /> Experience Designer
           </h2>
           <p
+            data-aos="fade-right"
             className="font-sans text-secondary font-normal text-base leading-6
           pb-4"
           >
@@ -26,7 +35,10 @@ const User = () => {
             stylish, modern websites, web services and online stores. My passion
             is to design digital user experiences.
           </p>
-          <p className="font-sans text-secondary font-normal text-base leading-6">
+          <p
+            data-aos="fade-left"
+            className="font-sans text-secondary font-normal text-base leading-6"
+          >
             I design and develop services for customers specializing creating
             stylish, modern websites, web services and online stores. My passion
             is to design digital user experiences.

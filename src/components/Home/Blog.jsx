@@ -6,10 +6,13 @@ const Blog = () => {
     <section>
       <div className="container flex flex-col items-center">
         <div className="pb-18 max-w-[540px]  text-center pt-25">
-          <h2 className="font-sans font-semibold text-primary text-5xl leading-14 pb-6">
+          <h2
+            data-aos="fade-down"
+            className="font-sans font-semibold text-primary text-5xl leading-14 pb-6"
+          >
             Blog
           </h2>
-          <p className="font-sans text-lg text-li-gray font-normal leading-7">
+          <p data-aos="zoom-in" className="font-sans text-lg text-li-gray font-normal leading-7">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>

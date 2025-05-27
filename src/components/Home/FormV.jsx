@@ -12,10 +12,16 @@ const FormV = () => {
     <section>
       <div className="container bg-white flex justify-between rounded-2xl saya p-22 translate-y-28">
         <div>
-          <h3 className="font-sans font-semibold text-4xl text-primary leading-12 pb-4">
+          <h3
+            data-aos="fade-down"
+            className="font-sans font-semibold text-4xl text-primary leading-12 pb-4"
+          >
             Let’s discuss your Project
           </h3>
-          <p className="font-sans font-normal text-lg text-li-gray leading-6 max-w-[481px]">
+          <p
+            data-aos="zoom-in"
+            className="font-sans font-normal text-lg text-li-gray leading-6 max-w-[481px]"
+          >
             There are many variations of passages of Lorem Ipsu available. but
             the majority have suffered alte.
           </p>
@@ -36,9 +42,7 @@ const FormV = () => {
               letter="00-1234 00000"
             />
           </div>
-          <SocialSites
-          style="saya"
-          />
+          <SocialSites style="saya" />
         </div>
         <div className="max-w-[560px]">
           <FormPart2 />

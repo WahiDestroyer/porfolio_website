@@ -10,15 +10,24 @@ const Work = () => {
     <section className="bg-[#F0F1F3]">
       <div className="container pt-62 flex justify-between pb-35">
         <div className="max-w-lg my-auto">
-          <h2 className="font-semibold text-5xl font-sans text-primary leading-14 pb-6">
+          <h2
+            data-aos="fade-down"
+            className="font-semibold text-5xl font-sans text-primary leading-14 pb-6"
+          >
             Work Process
           </h2>
-          <p className="text-[#697484] font-sans font-normal text-base leading-6 pb-4">
+          <p
+            data-aos="zoom-in"
+            className="text-[#697484] font-sans font-normal text-base leading-6 pb-4"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus
             arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices
             eget lorem ac vestibulum. Suspendis imperdiet,
           </p>
-          <p className="text-[#697484] font-sans font-normal text-base leading-6">
+          <p
+            data-aos="fade-up"
+            className="text-[#697484] font-sans font-normal text-base leading-6"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus
             arcu, varius eget velit non.
           </p>
@@ -29,7 +38,7 @@ const Work = () => {
             title="1. Research"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
           />
-          <div className='mt-8'>
+          <div className="mt-8">
             <Process
               icon={<IoMdAnalytics />}
               title="2. Analyze"

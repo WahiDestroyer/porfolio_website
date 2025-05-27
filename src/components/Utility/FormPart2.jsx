@@ -27,7 +27,7 @@ const FormPart2 = () => {
 
   return (
     <div>
-      <p className="font-sans font-medium text-base leading-6 text-li-gray pb-12">
+      <p data-aos="zoom-in" className="font-sans font-medium text-base leading-6 text-li-gray pb-12">
         There are many variations of passages of Lorem Ipsu available, but the
         majority have suffered alte.
       </p>
@@ -54,6 +54,7 @@ const FormPart2 = () => {
               setEmailErr("");
             }}
             type="email"
+            value={email}
             placeholder="Email*"
             className="border-b-2 hover:border-pink hover:placeholder-pink transition-all border-form placeholder-form outline-none"
           />
@@ -67,6 +68,7 @@ const FormPart2 = () => {
             }}
             type="text"
             placeholder="Location"
+            value={location}
             className="border-b-2 hover:border-pink hover:placeholder-pink transition-all border-form placeholder-form outline-none"
           />
           {locationErr && (
@@ -95,7 +97,7 @@ const FormPart2 = () => {
           <div className="flex items-center justify-between">
             <button
               type="submit"
-              className="max-w-fit py-3 px-6 bg-pink rounded-sm flex gap-2 items-center text-white"
+              className="max-w-fit py-3 px-6 bg-pink rounded-sm flex gap-2 items-center text-white hover:bg-black transition-all duration-300"
             >
               Submit <LiaLocationArrowSolid className="rotate-90 text-xl" />
             </button>

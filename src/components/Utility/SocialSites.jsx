@@ -10,7 +10,10 @@ import { Link } from "react-router";
 
 const SocialSites = ({style}) => {
   return (
-    <div className={`flex justify-around p-2 items-center w-64 bg-white rounded-md ${style}`} >
+    <div
+      data-aos="fade-up"
+      className={`flex justify-around p-2 items-center w-64 bg-white rounded-md ${style}`}
+    >
       <Link
         to="/"
         className="p-3 rounded-md hover:bg-pink group transition-all duration-800"
