@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogPart = ({image}) => {
   return (
-      <div className="bg-white saya max-w-[312px] rounded-2xl overflow-hidden">
+      <div className="bg-white saya max-w-[312px] rounded-2xl overflow-hidden mx-5">
           <div className='overflow-hidden'>
               
       <img
