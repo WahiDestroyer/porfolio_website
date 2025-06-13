@@ -11,6 +11,7 @@ const Blog = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    autoplay: true,
     appendDots: (dots) => (
       <div>
         <ul className="flex text-black justify-center"> {dots} </ul>
