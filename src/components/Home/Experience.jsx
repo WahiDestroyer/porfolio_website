@@ -23,7 +23,7 @@ const Experience = () => {
           </p>
           <BtnPrimary path="/" title="Say Hello!" />
         </div>
-        <div className="overflow-hidden flex flex-col gap-6">
+        <div className="overflow-hidden grid grid-cols-1 gap-6">
           <ExperiencePart  title="User Experience (UX)" />
           <ExperiencePart title="User Interface (UI)" />
           <ExperiencePart title="Web Development" />
