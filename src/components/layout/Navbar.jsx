@@ -28,7 +28,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" className="py-3 px-6">
+              <Link to="/process" className="py-3 px-6">
                 Process
               </Link>
             </li>

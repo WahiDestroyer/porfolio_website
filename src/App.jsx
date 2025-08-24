@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Layout from "./components/layout/Index";
 import ErrorPage from "./pages/ErrorPage";
+import Process from "./pages/Process"
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/process" element={<Process/>}/>
         </Route>
           <Route path="*" element={<ErrorPage />} />
       </Routes>
