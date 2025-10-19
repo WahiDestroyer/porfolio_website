@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 const ExperiencePart = ({ title }) => {
   
   const [open, setOpen] = useState(false)
-  console.log(open);
   
   return (
     <div data-aos="fade-left">
